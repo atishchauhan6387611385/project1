@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.main {
+  min-width: 100%;
+  background-color: rgba(16, 0, 245, 0.614);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+  padding: 20px 50px;
+}
+.logo {
+  font-size: xx-large;
+  font-weight: 600;
+  color: white;
+}
+ul {
+  display: flex;
+  gap: 2rem;
+  padding-right: 100px;
+}
+ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+section {
+  font-size: xxx-large;
+  padding: 5rem;
+  text-align: justify;
+}
+
+ul li a:hover {
+  color: rgb(194, 195, 205);
+}
